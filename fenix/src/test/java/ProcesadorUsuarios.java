@@ -18,14 +18,24 @@ public class ProcesadorUsuarios {
 
                 // Número Mágico: 1 es Admin
                 if (r == 1) {
-                    admins += n + ",";
+                    admins = procesarAdmin(admins, n);
                 }
                 // Número Mágico: 2 es Invitado
                 else if (r == 2) {
-                    invitados += n + ",";
+                    invitados = procesarInvitado(invitados, n);
                 }
             }
         }
         return "Admins: " + admins + " | Invitados: " + invitados;
+    }
+
+    private String procesarAdmin(String admins, String n) {
+        admins += n + ",";
+        return admins;
+    }
+
+    private String procesarInvitado(String invitados, String n) {
+        invitados += n + ",";
+        return invitados;
     }
 }

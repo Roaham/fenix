@@ -4,7 +4,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-public class ProcesadorUsuariosTest {
+public class ProcesadorUsuariosTest2 {
 
     @Test
     void testProcesarLista_DebeSepararAdminsEInvitados() {
