@@ -1,5 +1,6 @@
 import java.util.List;
 
+//HOLA
 /**
  * Procesa y clasifica una lista de usuarios según sus roles.
  * Separa a los usuarios en categorías de Administradores e Invitados basándose en un formato de cadena de texto específico.
